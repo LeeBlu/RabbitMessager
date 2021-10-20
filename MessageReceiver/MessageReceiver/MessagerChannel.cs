@@ -11,7 +11,7 @@ namespace MessageReceiver
     public class MessagerChannel : IMessagerChannel
     {
         private ConnectionFactory _ConnectionFactory = new ConnectionFactory();
-        public string SetUp(string message)
+        public string SetUp()
         {
             string receivedMessage = "";
             var factory = _ConnectionFactory.HostName = "localhost";

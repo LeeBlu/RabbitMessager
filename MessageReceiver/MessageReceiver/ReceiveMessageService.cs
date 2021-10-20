@@ -13,9 +13,9 @@ namespace MessageReceiver
         {
             this._messager = messager;
         }
-        public string SendMessage(string messages)
+        public string ReceiveMessage()
         {
-           return _messager.SetUp(messages);
+           return _messager.SetUp();
         }
     }
 }

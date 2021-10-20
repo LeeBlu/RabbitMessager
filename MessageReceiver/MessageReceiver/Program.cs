@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MessageReceiver
 {
@@ -6,7 +7,14 @@ namespace MessageReceiver
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            IServiceProvider service = new ServiceRegistration().Build();
+
+            var _receivedMessage = service.GetService<IReceiveMessageService>();
+
+            string response = _receivedMessage.ReceiveMessage();
+
+            Console.WriteLine($"Hello {response}, I am your father!");
+   
         }
     }
 }
