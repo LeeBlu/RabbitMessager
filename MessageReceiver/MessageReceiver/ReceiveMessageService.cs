@@ -8,9 +8,14 @@ namespace MessageReceiver
 {
     public class ReceiveMessageService : IReceiveMessageService
     {
+        private IMessagerChannel _messager;
+        public ReceiveMessageService(IMessagerChannel messager)
+        {
+            this._messager = messager;
+        }
         public string SendMessage(string messages)
         {
-            throw new NotImplementedException();
+           return _messager.SetUp(messages);
         }
     }
 }
