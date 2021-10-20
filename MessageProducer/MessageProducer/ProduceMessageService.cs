@@ -8,9 +8,14 @@ namespace MessageProducer
 {
     public class ProduceMessageService : IProduceMessageService
     {
+        private IMessagerChannel _messager;
+        public ProduceMessageService(IMessagerChannel messager)
+        {
+            this._messager = messager;
+        }
         public void SendMessage(string messages)
         {
-            throw new NotImplementedException();
+            _messager.SetUp(messages);
         }
     }
 }
