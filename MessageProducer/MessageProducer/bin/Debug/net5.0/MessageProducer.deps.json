@@ -7,10 +7,56 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "MessageProducer/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "6.0.0-rc.2.21480.5",
+          "RabbitMQ.Client": "6.2.2"
+        },
         "runtime": {
           "MessageProducer.dll": {}
         }
-      }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0-rc.2.21480.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.2.21480.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0-rc.2.21480.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.48005"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-rc.2.21480.5": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.48005"
+          }
+        }
+      },
+      "RabbitMQ.Client/6.2.2": {
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Threading.Channels": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.2.2.0"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0-rc.2.21480.5": {
+        "runtime": {
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.48005"
+          }
+        }
+      },
+      "System.Threading.Channels/4.7.1": {}
     }
   },
   "libraries": {
@@ -18,6 +64,48 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oLjs0qdNy7ddQfcmMaOwx4KXIreo3H7j80N33iaKupAGOKgnEzSGXYIGZxQVHh++cobWmmDQouw3IkP45W9O/w==",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hi3YC5dY6zjbV5ZNsi/UvKHNTpP4wkvaRXchH0FXGdU/pHDbmua9NAKLu9WCTs5DOnOXtvAbly/I6IZpGBzXSA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0-rc.2.21480.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "RabbitMQ.Client/6.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+tJSgE+rQXgLvOxWvOxdZ0+No1EMa86+puZuNlCb4cNryHw2PY2Xiw/y2dz/WWdeJQp74Y2UnNXPkuLiYpvn+A==",
+      "path": "rabbitmq.client/6.2.2",
+      "hashPath": "rabbitmq.client.6.2.2.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0-rc.2.21480.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xn/HBsyA/Fsp0gGZpdJcVBluc0MDXisNHHiYXTdreb1Nl4PEid7L6w3JcWrOU9xQFoL5Ep7ySnNDTn1BVVy26Q==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0-rc.2.21480.5",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0-rc.2.21480.5.nupkg.sha512"
+    },
+    "System.Threading.Channels/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
+      "path": "system.threading.channels/4.7.1",
+      "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
     }
   }
 }
