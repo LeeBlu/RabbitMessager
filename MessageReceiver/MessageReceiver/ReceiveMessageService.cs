@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MessageReceiver
 {
-   public class ReceiveMessageService
+    public class ReceiveMessageService : IReceiveMessageService
     {
+        public string SendMessage(string messages)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

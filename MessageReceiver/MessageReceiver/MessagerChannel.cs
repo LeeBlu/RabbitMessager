@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace MessageReceiver
 {
-    public interface IReceiveMessageService
+    public class MessagerChannel
     {
-        string SendMessage(string messages);
     }
 }
