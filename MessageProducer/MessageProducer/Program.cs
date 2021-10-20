@@ -1,4 +1,7 @@
-﻿using System;
+﻿using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
+using System;
+using System.Text;
 
 namespace MessageProducer
 {
@@ -6,7 +9,7 @@ namespace MessageProducer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+  
         }
     }
 }

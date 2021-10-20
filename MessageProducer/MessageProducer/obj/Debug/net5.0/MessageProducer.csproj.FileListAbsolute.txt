@@ -1,0 +1,16 @@
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\bin\Debug\net5.0\MessageProducer.exe
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\bin\Debug\net5.0\MessageProducer.deps.json
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\bin\Debug\net5.0\MessageProducer.runtimeconfig.json
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\bin\Debug\net5.0\MessageProducer.runtimeconfig.dev.json
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\bin\Debug\net5.0\MessageProducer.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\bin\Debug\net5.0\ref\MessageProducer.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\bin\Debug\net5.0\MessageProducer.pdb
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.csproj.AssemblyReference.cache
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.AssemblyInfoInputs.cache
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.AssemblyInfo.cs
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.csproj.CoreCompileInputs.cache
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\ref\MessageProducer.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.pdb
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer\obj\Debug\net5.0\MessageProducer.genruntimeconfig.cache
