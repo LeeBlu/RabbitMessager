@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "KDFStRdELYJ8brDUA0pPQ/dPLJxp01UbKsgcJD654kyMvcT2G0dGx93c8MY/5XBd6IoY7oA2MtivkJJ8WXtIIQ==",
+  "dgSpecHash": "SE30chH22uymOYJ3O/3GmGaPby0oaOXFToTiQH+T8vCwm8nLd+5C1pXbzvdlAFM8CMjBg1safT1MhjGBSBWqYg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lepelle\\Desktop\\Rabbit Messager\\RabbitMessager\\MessageProducer\\MessageProducer\\MessageProducer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lepelle\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0-rc.2.21480.5\\microsoft.extensions.dependencyinjection.6.0.0-rc.2.21480.5.nupkg.sha512",
+    "C:\\Users\\Lepelle\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-rc.2.21480.5\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-rc.2.21480.5.nupkg.sha512",
     "C:\\Users\\Lepelle\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\Lepelle\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Lepelle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-rc.2.21480.5\\system.runtime.compilerservices.unsafe.6.0.0-rc.2.21480.5.nupkg.sha512",
     "C:\\Users\\Lepelle\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
