@@ -8,5 +8,6 @@ namespace MessageReceiver
 {
    public interface IMessagerChannel
     {
+        string SetUp(string message);
     }
 }
