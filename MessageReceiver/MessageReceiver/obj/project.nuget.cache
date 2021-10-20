@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4Z9Bg9vTrvITsI8yEIOHTEoAFEV1FWl/4gtIrewKai9jtYL1AHdvaMqRpO/DmPQda5WdO3RS37NP4LQxW00Diw==",
+  "dgSpecHash": "ZsBYdvTPzpnE/ZZXUK6TvRiK82XaAjgPAo85Iq1OMXXP1KXVQlnp+baLavytlsfhb5LKSKEmGLrCH9cwhnsJzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lepelle\\Desktop\\Rabbit Messager\\RabbitMessager\\MessageReceiver\\MessageReceiver\\MessageReceiver.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Lepelle\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
+    "C:\\Users\\Lepelle\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Lepelle\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
   "logs": []
 }
