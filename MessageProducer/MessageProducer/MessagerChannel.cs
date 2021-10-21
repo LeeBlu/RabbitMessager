@@ -15,26 +15,41 @@ namespace MessageProducer
 
         }
 
-        public void SetUp(string message)
+        public bool SetUp(string message)
         {
-            var factory = _ConnectionFactory.HostName = "localhost";
-
-            using (var connection = _ConnectionFactory.CreateConnection())
-            using (var channel = connection.CreateModel())
+            try
             {
-                channel.QueueDeclare(queue: "Messager"
-                                    , durable: true
-                                    , exclusive: false
-                                    , autoDelete: false
-                                    , arguments: null);
+                if (string.IsNullOrEmpty(message))
+                {
+                    return false;
+                }
+                var factory = _ConnectionFactory.HostName = "localhost";
+
+                using (var connection = _ConnectionFactory.CreateConnection())
+                using (var channel = connection.CreateModel())
+                {
+                    channel.QueueDeclare(queue: "Messager"
+                                        , durable: true
+                                        , exclusive: false
+                                        , autoDelete: false
+                                        , arguments: null);
 
 
-                var body = Encoding.UTF8.GetBytes(message);
-                channel.BasicPublish(exchange: "",
-                                     routingKey: "Messager",
-                                     basicProperties: null,
-                                     body: body);
+                    var body = Encoding.UTF8.GetBytes(message);
+                    channel.BasicPublish(exchange: "",
+                                         routingKey: "Messager",
+                                         basicProperties: null,
+                                         body: body);
+                }
+                return true;
             }
+            catch (Exception)
+            {
+
+                return false;
+            }
+            
+
         }
     }
 }

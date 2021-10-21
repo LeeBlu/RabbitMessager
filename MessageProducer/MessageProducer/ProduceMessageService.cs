@@ -13,9 +13,9 @@ namespace MessageProducer
         {
             this._messager = messager;
         }
-        public void SendMessage(string messages)
+        public bool SendMessage(string messages)
         {
-            _messager.SetUp(messages);
+           return  _messager.SetUp(messages);
         }
     }
 }

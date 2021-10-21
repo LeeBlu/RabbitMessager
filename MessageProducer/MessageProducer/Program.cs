@@ -10,6 +10,7 @@ namespace MessageProducer
     {
         static void Main(string[] args)
         {
+            bool sent = false;
             IServiceProvider service = new ServiceRegistration().Build();
 
             var _produceMessage = service.GetService<IProduceMessageService>();
@@ -18,7 +19,11 @@ namespace MessageProducer
             Console.WriteLine("enter name ");
             name = Console.ReadLine();
             Console.WriteLine("Hello my name is,{0}", name);
-            _produceMessage.SendMessage(name);
+            sent=_produceMessage.SendMessage(name);
+            if (!sent)
+                Console.WriteLine("Message was not sent");
+
+
         }
     }
 }

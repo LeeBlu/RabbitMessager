@@ -8,6 +8,6 @@ namespace MessageProducer
 {
    public interface IProduceMessageService
     {
-        void SendMessage(string messages);
+        bool SendMessage(string messages);
     }
 }

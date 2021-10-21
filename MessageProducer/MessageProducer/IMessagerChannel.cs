@@ -8,6 +8,6 @@ namespace MessageProducer
 {
    public interface IMessagerChannel
     {
-        void SetUp(string message);
+        bool SetUp(string message);
     }
 }

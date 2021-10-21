@@ -99,3 +99,14 @@ C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageP
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\obj\Debug\net5.0\ref\MessageProducer.Test.dll
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\obj\Debug\net5.0\MessageProducer.Test.pdb
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\obj\Debug\net5.0\MessageProducer.Test.genruntimeconfig.cache
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\MessageProducer.deps.json
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\MessageProducer.runtimeconfig.json
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\MessageProducer.runtimeconfig.dev.json
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\MessageProducer.exe
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\MessageProducer.dll
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageProducer\MessageProducer.Test\bin\Debug\net5.0\MessageProducer.pdb

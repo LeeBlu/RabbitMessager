@@ -13,28 +13,37 @@ namespace MessageReceiver
         private ConnectionFactory _ConnectionFactory = new ConnectionFactory();
         public string SetUp()
         {
-            string receivedMessage = "";
-            var factory = _ConnectionFactory.HostName = "localhost";
-
-            using (var connection = _ConnectionFactory.CreateConnection())
-            using (var channel = connection.CreateModel())
+            try
             {
-                channel.QueueDeclare(queue: "Messager"
-                                    , durable: true
-                                    , exclusive: false
-                                    , autoDelete: false
-                                    , arguments: null);
+                string receivedMessage = "";
+                var factory = _ConnectionFactory.HostName = "localhost";
 
-                var consumer = new EventingBasicConsumer(channel);
-                consumer.Received += (model, ea) =>
+                using (var connection = _ConnectionFactory.CreateConnection())
+                using (var channel = connection.CreateModel())
                 {
-                    var _body = ea.Body;
-                    var message = Encoding.UTF8.GetString(_body.ToArray());
-                    receivedMessage=$"Msg Received {message}";
-                };
-                channel.BasicConsume("Messager", autoAck: true, consumer: consumer);
+                    channel.QueueDeclare(queue: "Messager"
+                                        , durable: true
+                                        , exclusive: false
+                                        , autoDelete: false
+                                        , arguments: null);
+
+                    var consumer = new EventingBasicConsumer(channel);
+                    consumer.Received += (model, ea) =>
+                    {
+                        var _body = ea.Body;
+                        var message = Encoding.UTF8.GetString(_body.ToArray());
+                        receivedMessage = $"Msg Received {message}";
+                    };
+                    channel.BasicConsume("Messager", autoAck: true, consumer: consumer);
+                }
+                return receivedMessage;
             }
-            return receivedMessage;
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
         }
     }
 }
