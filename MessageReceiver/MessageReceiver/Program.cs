@@ -12,6 +12,9 @@ namespace MessageReceiver
             var _receivedMessage = service.GetService<IReceiveMessageService>();
 
             string response = _receivedMessage.ReceiveMessage();
+            if (string.IsNullOrEmpty(response))
+                Console.WriteLine("");
+
 
             Console.WriteLine($"Hello {response}, I am your father!");
    

@@ -13,9 +13,10 @@ namespace MessageReceiver
         private ConnectionFactory _ConnectionFactory = new ConnectionFactory();
         public string SetUp()
         {
+            string receivedMessage = "";
             try
             {
-                string receivedMessage = "";
+              
                 var factory = _ConnectionFactory.HostName = "localhost";
 
                 using (var connection = _ConnectionFactory.CreateConnection())
@@ -41,7 +42,7 @@ namespace MessageReceiver
             catch (Exception ex)
             {
 
-                throw;
+                return receivedMessage = "";
             }
 
         }
