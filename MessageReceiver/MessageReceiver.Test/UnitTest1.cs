@@ -18,9 +18,9 @@ namespace MessageReceiver.Test
             var _receiveMessage = service.GetService<IReceiveMessageService>();
 
             //Act
-            string received = _receiveMessage.ReceiveMessage();
+            bool received = _receiveMessage.ReceiveMessage();
             //Assert
-            Assert.IsNotEmpty(received);
+            Assert.IsTrue(received);
         }
 
         [Test]
@@ -31,9 +31,9 @@ namespace MessageReceiver.Test
             var _produceMessage = service.GetService<IReceiveMessageService>();
 
             //Act
-            string received = _produceMessage.ReceiveMessage();
+            bool received = _produceMessage.ReceiveMessage();
             //Assert
-            Assert.IsEmpty(received);
+            Assert.IsFalse(received);
         }
     }
 }

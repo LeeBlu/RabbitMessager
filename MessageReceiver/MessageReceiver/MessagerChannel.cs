@@ -11,9 +11,10 @@ namespace MessageReceiver
     public class MessagerChannel : IMessagerChannel
     {
         private ConnectionFactory _ConnectionFactory = new ConnectionFactory();
-        public string SetUp()
+        public bool SetUp()
         {
             string receivedMessage = "";
+            bool vaildmessage = false;
             try
             {
               
@@ -33,16 +34,25 @@ namespace MessageReceiver
                     {
                         var _body = ea.Body;
                         var message = Encoding.UTF8.GetString(_body.ToArray());
-                        receivedMessage = $"Msg Received {message}";
+
+                        if (string.IsNullOrEmpty(message))
+                        
+                            Console.WriteLine("No Name received");
+                          
+                        
+                               
+                        receivedMessage = $"Hello {message}, I am your father!";
+
+                        Console.WriteLine(receivedMessage);
                     };
                     channel.BasicConsume("Messager", autoAck: true, consumer: consumer);
                 }
-                return receivedMessage;
+                return vaildmessage;
             }
             catch (Exception ex)
             {
 
-                return receivedMessage = "";
+                return false ;
             }
 
         }

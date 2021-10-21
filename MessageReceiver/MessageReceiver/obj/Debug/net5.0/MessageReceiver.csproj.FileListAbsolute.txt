@@ -18,3 +18,4 @@ C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageR
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\ref\MessageReceiver.dll
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\MessageReceiver.pdb
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\MessageReceiver.genruntimeconfig.cache
+C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\MessageReceiver.csproj.AssemblyReference.cache

@@ -13,7 +13,7 @@ namespace MessageReceiver
         {
             this._messager = messager;
         }
-        public string ReceiveMessage()
+        public bool ReceiveMessage()
         {
            return _messager.SetUp();
         }

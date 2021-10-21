@@ -8,6 +8,6 @@ namespace MessageReceiver
 {
     public interface IReceiveMessageService
     {
-        string ReceiveMessage();
+        bool ReceiveMessage();
     }
 }
