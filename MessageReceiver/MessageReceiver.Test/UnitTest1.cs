@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using System;
 using Microsoft.Extensions.DependencyInjection;
+using MessageProducer;
 
 namespace MessageReceiver.Test
 {
@@ -11,13 +12,17 @@ namespace MessageReceiver.Test
         {
             //Arrange
             IServiceProvider service = new ServiceRegistration().Build();
-            var _produceMessage = service.GetService<IReceiveMessageService>();
+            IServiceProvider service2 = new MessageProducer.ServiceRegistration().Build();
+            var _produceMessage = service2.GetService<IProduceMessageService>();
+             _produceMessage.SendMessage("peter");
+            var _receiveMessage = service.GetService<IReceiveMessageService>();
 
             //Act
-            string received = _produceMessage.ReceiveMessage();
+            string received = _receiveMessage.ReceiveMessage();
             //Assert
             Assert.IsNotEmpty(received);
         }
+
         [Test]
         public void Invaild_message_received()
         {

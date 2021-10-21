@@ -17,4 +17,10 @@
     <ProjectReference Include="..\MessageReceiver\MessageReceiver.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="MessageProducer">
+      <HintPath>..\..\MessageProducer\MessageProducer\bin\Debug\net5.0\MessageProducer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

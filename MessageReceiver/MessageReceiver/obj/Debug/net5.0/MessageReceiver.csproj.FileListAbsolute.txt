@@ -9,7 +9,6 @@ C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageR
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\bin\Debug\net5.0\RabbitMQ.Client.dll
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\MessageReceiver.csproj.AssemblyReference.cache
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\MessageReceiver.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\MessageReceiver.AssemblyInfoInputs.cache
 C:\Users\Lepelle\Desktop\Rabbit Messager\RabbitMessager\MessageReceiver\MessageReceiver\obj\Debug\net5.0\MessageReceiver.AssemblyInfo.cs

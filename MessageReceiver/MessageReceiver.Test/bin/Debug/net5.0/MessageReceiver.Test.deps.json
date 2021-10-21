@@ -12,7 +12,8 @@
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "NUnit": "3.13.1",
           "NUnit3TestAdapter": "3.17.0",
-          "coverlet.collector": "3.0.2"
+          "coverlet.collector": "3.0.2",
+          "MessageProducer": "1.0.0.0"
         },
         "runtime": {
           "MessageReceiver.Test.dll": {}
@@ -920,6 +921,14 @@
         "runtime": {
           "MessageReceiver.dll": {}
         }
+      },
+      "MessageProducer/1.0.0.0": {
+        "runtime": {
+          "MessageProducer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1428,6 +1437,11 @@
     },
     "MessageReceiver/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessageProducer/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
